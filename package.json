@@ -1,0 +1,19 @@
+{
+  "name": "webcluster-demonstration",
+  "version": "1.0.0",
+  "description": "Демонстрация работы нескольких одинаковых процессов для web-клстера и балансировщика нагрузки",
+  "main": "index.js",
+  "author": "Ymnuk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4",
+    "express-generator": "*",
+    "express-session": "*",
+    "connect-sqlite3": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.2",
+    "pug": "*",
+    "morgan": "~1.9.0"
+  }
+}
